@@ -8,34 +8,48 @@
 </head>
 <body>
     <div class="container">
-        <h1>Rock Paper Scissor</h1>
-        <div class="user">
-            <h2>My Score</h2>
-            <h2 id="myScore"></h2>
+        <div class="head">
+            <h1>Rock Paper Scissor Game</h1>
         </div>
-        <div class="user">
-            <h2>Computer Score</h2>
-            <h2 id="comp"></h2>
+        <div class="result">
+
+            <div>
+                <h2>My Score : <span id="myscore">0</span> </h2>
+                
+            </div>
+
+            <div>
+                <h2>Computer Score : <span id="comScore">0</span> </h2>
+            </div>
         </div>
-    </div>
-    <div class="show">
-        <div class="userShow">
-            <h2>User</h2>
-            <img src="" alt="">
+
+        <div class="game">
+            <div>
+                <h2>Computer </h2>
+                <img id="comp" alt="">
+            </div>
+            <div>
+                <h2>vs</h2>
+            </div>
+            <div>
+                <h2>You </h2>
+                <img id="user" alt="">
+            </div>
         </div>
-        <div class="compShow">
-            <h2>Computer</h2>
-            <img src="" alt="">
+        <br>
+
+        <div class="totalResult">
+            <h2>Result : <h2 id="result"></h2>
+            </h2>
+
         </div>
-    </div>
-    <div class="rs">
-        <h2>Result</h2>
-        <h2 id="result"></h2>
-    </div>
-    <div class="img">
-        <img onclick="myFun1()" src="" alt="">
-        <img onclick="myFun2()" src="" alt="">
-        <img onclick="myFun3()" src="" alt="">
+        <div class="img">
+            <img onclick="myFun1()" src="rock.png" alt="">
+            <img onclick="myFun2()" src="paper.png" alt=""  >
+            <img onclick="myFun3()" src="scissor.png" alt="">
+
+        </div>
+
     </div>
 </body>
 </html>

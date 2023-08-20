@@ -1,0 +1,49 @@
+* {
+  margin: 1px;
+  padding: 2px;
+}
+
+body {
+    background-color: rgb(242, 250, 131);
+  }
+
+.head {
+  background-color: rgb(255, 63, 63);
+  padding: 11px;
+  width: 98%;
+  color: white;
+}
+
+
+.container {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h2 {
+  margin-inline: 33px;
+  cursor: pointer;
+}
+
+.result {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.game {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  align-items: baseline;
+}
+
+.totalResult {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 60px;
+  cursor: pointer;
+}
