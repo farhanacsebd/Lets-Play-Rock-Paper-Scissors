@@ -1,4 +1,4 @@
-# Rock Paper 
+# Rock Paper Scissor 
 **Features:**
 - This website is fully responsive.
 - Users can play here.
