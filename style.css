@@ -127,7 +127,7 @@ h2 {
   }
 
   .totalResult{
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     font-size: 14px;
   }
   .game{
@@ -135,6 +135,6 @@ h2 {
   }
 
   .choices {
-    margin: 20px 0;
+    margin: 30px 0;
   }
 }
