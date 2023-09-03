@@ -115,7 +115,7 @@ h2 {
 /* Media Query Breakpoint */
 @media (max-width: 576px){
   body{
-    overflow: hidden;
+    /* overflow: hidden; */
     text-align: center;
   }
 
@@ -127,9 +127,14 @@ h2 {
   }
 
   .totalResult{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    font-size: 14px;
   }
   .game{
-    gap: 1.1rem;
+    gap: 0.5rem;
+  }
+
+  .choices {
+    margin: 20px 0;
   }
 }
