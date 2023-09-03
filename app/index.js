@@ -1,7 +1,7 @@
 let myScore = document.getElementById("myScore").innerHTML;
 let comScore = document.getElementById("comScore").innerHTML;
 
-
+// 1st function
 function myFun1(){
     let random = Math.floor(Math.random() * 3)
 
@@ -29,8 +29,9 @@ function myFun1(){
             document.getElementById("myScore").innerHTML = myScore;
         }
     }
-}
+};
 
+// 2nd function
 function myFun2(){
     let random = Math.floor(Math.random() * 3)
 
@@ -58,7 +59,9 @@ function myFun2(){
             document.getElementById("comScore").innerHTML = comScore;
         }
     }
-}
+};
+
+// 3nd function
 function myFun3(){
     let random = Math.floor(Math.random() * 3)
 

@@ -108,5 +108,28 @@ h2 {
 .choice img:hover {
   cursor: pointer;
   background-color: #24272e;
-  border: 2px solid rgb(45, 45, 223);
+  border: 4px solid rgb(40, 40, 240);
+}
+
+
+/* Media Query Breakpoint */
+@media (max-width: 576px){
+  body{
+    overflow: hidden;
+    text-align: center;
+  }
+
+  .head{
+    font-size: 20px;
+  }
+  .score-board {
+    margin: 20px auto 15px;
+  }
+
+  .totalResult{
+    margin-bottom: 20px;
+  }
+  .game{
+    gap: 1.1rem;
+  }
 }
