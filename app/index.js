@@ -1,3 +1,7 @@
+let myScore = document.getElementById("myScore").innerHTML;
+let comScore = document.getElementById("comScore").innerHTML;
+
+
 function myFun1(){
     let random = Math.floor(Math.random() * 3)
 
@@ -13,12 +17,16 @@ function myFun1(){
         let paper = document.getElementById("comp").src="paper.png";
         if(rocks && paper){
             document.getElementById("result").innerHTML = "YOU LOST THE GAME📵";
+            comScore++;
+            document.getElementById("comScore").innerHTML = comScore;
         }
     }
     else if(random == 2){
         let scissor = document.getElementById("comp").src="scissor.png";
         if(rocks && scissor){
             document.getElementById("result").innerHTML = "YOU WIN THE GAME🏆";
+            myScore++;
+            document.getElementById("myScore").innerHTML = myScore;
         }
     }
 }
@@ -32,6 +40,8 @@ function myFun2(){
         let rock = document.getElementById("comp").src="rock.png";
         if(papers && rock){
             document.getElementById("result").innerHTML = "YOU WIN THE GAME🏆";
+            myScore++;
+            document.getElementById("myScore").innerHTML = myScore;
         }
     }
     else if(random == 1){
@@ -44,6 +54,8 @@ function myFun2(){
         let scissor = document.getElementById("comp").src="scissor.png";
         if(papers && scissor){
             document.getElementById("result").innerHTML = "YOU LOST THE GAME📵";
+            comScore++;
+            document.getElementById("comScore").innerHTML = comScore;
         }
     }
 }
@@ -56,12 +68,16 @@ function myFun3(){
         let rock = document.getElementById("comp").src="rock.png";
         if(scissors && rock){
             document.getElementById("result").innerHTML = "YOU LOST THE GAME📵";
+            comScore++;
+            document.getElementById("comScore").innerHTML = comScore;
         }
     }
     else if(random == 1){
         let paper = document.getElementById("comp").src="paper.png";
         if(scissors && paper){
             document.getElementById("result").innerHTML = "YOU WIN THE GAME🏆";
+            myScore++;
+            document.getElementById("myScore").innerHTML = myScore;
         }
     }
     else if(random == 2){
